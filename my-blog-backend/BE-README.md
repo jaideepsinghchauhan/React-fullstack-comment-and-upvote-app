@@ -27,3 +27,5 @@ What this command does is, it generates a minified bundle of front end project w
 and hence from nodejs we serve those files, any change we make in my-blog-frontend has to be build and put here so that those changes are put into main backend and serve from there
 
 
+To Deploy we need to use Gcloud in the backend folder after taking latest code from front end bundle 
+the command to deploy is gcloud app deploy ( may change in future but this should work )
